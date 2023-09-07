@@ -19,8 +19,10 @@ const database = new DatabaseMemory()
 
 // Request Body
 
-server.get('/videos', (request, reply) => {
-  const videos = database.list()
+server.get('/videos', (request) => {
+  const search = request.query.search
+  
+  const videos = database.list(search)
 
   return videos
 })

@@ -21,7 +21,7 @@ export class DatabaseMemory {
           return video.title.includes(search)
         }
 
-        return true
+        return true 
       })
 
   }

@@ -1,3 +1,6 @@
 ﻿# API-Videos
 
-API de vídeos feita com Node.js, Fastify e PostgreSQL
+API de vídeos feita com:
+- Node.js
+- Fastify
+- PostgreSQL
